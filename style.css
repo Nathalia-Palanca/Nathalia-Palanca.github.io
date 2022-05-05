@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #ffdc9b;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #d37da1;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -33,23 +33,30 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #504b4e;
 }
 
 .profile .profile-image {
-    width: 100%;
+    width: 70%;
     border-radius: 100%;
+    margin: 10px auto 0;
+}
+
+.profile-image {
+    display: block;
 }
 
 .name {
-    color: #D6DBDF;
+    color: #504b4e;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #504b4e;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -57,8 +64,9 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #504b4e;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .contact-info ul {
@@ -68,14 +76,15 @@
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #504b4e;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #eeeeee;
+    color: #504b4e;
+    margin-left: 20px;
 }
 
 .skills ul {
@@ -83,23 +92,28 @@
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #504b4e;
+    margin-left: 20px;
 }
 
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 2rem 0;
 }
 
 .right-title {
     color: #eeeeee;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
 .about-me-contents {
-    font-size: 18px;
+    font-size: 15px;
     color: #eeeeee;
+    margin-left: 30px;
 }
 
 .experience-contents,
@@ -109,12 +123,13 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
+    margin-left: 30px;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -135,4 +150,5 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+    margin-right: 20px;
 }
