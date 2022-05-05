@@ -39,6 +39,11 @@
 .profile .profile-image {
     width: 40%;
     border-radius: 10%;
+    margin: 10px auto 0;
+}
+
+.profile-image {
+    display: block;
 }
 
 .name {
@@ -69,7 +74,7 @@
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #c91818;
+    color: #eeeeee;
 }
 
 .contact-info ul li i,
